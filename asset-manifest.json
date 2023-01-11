@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/VisitSite/static/css/main.7025a6c2.css",
+    "main.js": "/VisitSite/static/js/main.6baf1258.js",
+    "static/media/Background-avocado.jpg": "/VisitSite/static/media/Background-avocado.253605d84063adf53057.jpg",
+    "index.html": "/VisitSite/index.html",
+    "main.7025a6c2.css.map": "/VisitSite/static/css/main.7025a6c2.css.map",
+    "main.6baf1258.js.map": "/VisitSite/static/js/main.6baf1258.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7025a6c2.css",
+    "static/js/main.6baf1258.js"
+  ]
+}
