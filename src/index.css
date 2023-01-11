@@ -1,3 +1,7 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,111 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.brand-logo {
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.content {
+  background: url(images/Background-avocado.jpg);
+  min-height: calc(100vh - 64px - 70px);
+  display: flex;
+  justify-content: center;
+  background-size: 100vh;
+}
+
+.date-footer {
+  font-size: 20px;
+}
+
+.links {
+  font-size: 20px;
+}
+
+.content-bordered {
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.925);
+  -webkit-box-shadow: 10px 7px 75px 0px rgb(0, 0, 0);
+  -moz-box-shadow: 10px 7px 75px 0px rgb(0, 0, 0);
+  box-shadow: 10px 7px 75px 0px rgb(0, 0, 0);
+  min-height: 75vh;
+  min-width: 95vh;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.description {
+  color: rgba(37, 35, 35, 0.863);
+  padding: 25px;
+  line-height: 1.5;
+}
+
+.description h1{
+  font-size:54px;
+  color: black;
+  margin: 0;
+}
+
+.facts {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.btn-url {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 39px 26px rgba(51, 154, 232, 0.2);
+  font-size: 24px;
+  color: rgb(255, 253, 250);
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.btn-url:hover {
+  transition: .4s ease-in-out all;
+}
+
+.blue {
+  background-color: rgba(110, 183, 243, 0.884);
+}
+
+.blue:hover {
+  background-color: rgba(74, 170, 248, 0.863);
+  box-shadow: 4px 4px 39px 12px rgba(51, 154, 232, 0.767);
+}
+
+.red {
+  background-color: rgba(240, 67, 67, 0.829);
+}
+
+.red:hover {
+  background-color: rgba(240, 67, 67, 0.692);
+  box-shadow: 4px 4px 39px 12px rgba(253, 61, 47, 0.767);
+}
+
+.black {
+  background-color: rgba(51, 46, 46, 0.637);
+}
+
+.black:hover {
+  background-color: rgba(80, 68, 68, 0.459);
+  box-shadow: 4px 4px 39px 12px rgba(59, 48, 48, 0.767);
+}
+
+.center-list {
+  display: inline-block;
+  text-align: left;
+}
+
+.links-list {
+  text-align: center;
 }
